@@ -1,38 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Identification WebPage</title>
-</head>
-<body>
+  </head>
+  <body>
     <div data-testid="container">
-        <div data-testid="imageWrapper">
-            <img src="/Public/Images/profile.jpg" alt="RrLSn" data-testid="slackDisplayImage" />
+      <div data-testid="imageWrapper">
+        <img
+          src="/Public/Images/profile.jpg"
+          alt="RrLSn"
+          data-testid="slackProfilePicture"
+        />
 
-            <h1 data-testid="slackUserName">RrLSn</h1>
+        <h1 data-testid="slackDisplayName">SoulfulQuest</h1>
+        <p data-testid="slackEmail">afolabisodiqtemitope@yahoo.com</p>
 
-            <div data-testid="socialLink">
-                <a href="https://github.com/RrLSn/HNGx_stage1.git" data-testid=“githubURL”><img src="/Public/Svg/github.svg" alt=""></a>
+        <div data-testid="socialLink">
+          <a
+            href="https://github.com/RrLSn/HNGx_stage1.git"
+            data-testid="“githubURL”"
+            ><img src="/Public/Svg/github.svg" alt=""
+          /></a>
 
-                <a href="https://twitter.com/Afolabi_Sq"><img src="/Public/Svg/twitter.svg" alt=""></a>
+          <a href="https://twitter.com/Afolabi_Sq"
+            ><img src="/Public/Svg/twitter.svg" alt=""
+          /></a>
 
-                <a href="https://www.linkedin.com/in/sodiq-afolabi-b91555270/"><img src="/Public/Svg/linkedin.svg" alt=""></a>
+          <a href="https://www.linkedin.com/in/sodiq-afolabi-b91555270/"
+            ><img src="/Public/Svg/linkedin.svg" alt=""
+          /></a>
 
-                <a href=""><img src="/Public/Svg/signal.svg" alt=""></a>
-            </div>
+          <a href="https://jolly-concha-523ef2.netlify.app/"
+            ><img src="/Public/Svg/signal.svg" alt=""
+          /></a>
         </div>
-        <div data-testid="cardInfo">
-            <h1 data-testid="myTrack">Track: Front-End</h1>
+      </div>
+      <div data-testid="cardInfo">
+        <h1 data-testid="myTrack">Track: Front-End</h1>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo ante ac mauris ultricies, et gravida nunc venenatis. Nam nec tempor mi. Fusce hendrerit, nisl vel dignissim dapibus, ligula sem rutrum est, eu aliquam metus mi non diam. Quisque id semper tortor. Nullam euismod, nunc vel ultrices ultricies, sem nulla consectetur mauris, sit amet consequat ligula dolor vitae tellus. Sed sagittis metus nec semper cursus. Proin nec velit et ex rutrum tristique. In hac habitasse platea dictumst. Donec vestibulum, leo a interdum molestie, lacus neque pulvinar ligula, a commodo nibh enim non sapien. Sed ac felis sit amet arcu bibendum mollis. Duis vitae ex eget sem accumsan faucibus.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo
+          ante ac mauris ultricies, et gravida nunc venenatis. Nam nec tempor
+          mi. Fusce hendrerit, nisl vel dignissim dapibus, ligula sem rutrum
+          est, eu aliquam metus mi non diam. Quisque id semper tortor. Nullam
+          euismod, nunc vel ultrices ultricies, sem nulla consectetur mauris,
+          sit amet consequat ligula dolor vitae tellus. Sed sagittis metus nec
+          semper cursus. Proin nec velit et ex rutrum tristique. In hac
+          habitasse platea dictumst. Donec vestibulum, leo a interdum molestie,
+          lacus neque pulvinar ligula, a commodo nibh enim non sapien. Sed ac
+          felis sit amet arcu bibendum mollis. Duis vitae ex eget sem accumsan
+          faucibus.
+        </p>
 
-            <h4 data-testid="currentDayOfTheWeek"></h4>
+        <h4 data-testid="currentDay"></h4>
 
-            <h4 data-testid="currentUTCTime"></h4>
-        </div>
+        <h4 data-testid="currentTimeUTC"></h4>
+        <footer>
+          <a href="http://hng.tech/learn" data-testid="hngLink">HNG</a>
+          <a href="http://keyword.dog" data-testid="keywordLink">Keyword</a>
+          <a href="http://scrapeanyweb.site" data-testid="scrapeanyWebLink"
+            >ScrapeanyWeb</a
+          >
+        </footer>
+      </div>
     </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
